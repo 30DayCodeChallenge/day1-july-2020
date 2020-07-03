@@ -1,5 +1,15 @@
 # Challenge 1 Day 1
 
+Instructions:
+
+1. Fork this Challenge and make any pushes to that repository, then create a pull request.
+
+2. Use any language you prefer.
+3. Include a README.md  file to show how to run and compile the code.
+4. In your own interest comment your code.
+5. In your own interest attach Screenshots for your results.
+6. Comment on another person's work for positive growth
+
 ## Mini Challenge 1
 
 ### Count the number of Duplicates
