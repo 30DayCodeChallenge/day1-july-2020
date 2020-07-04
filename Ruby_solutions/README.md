@@ -22,7 +22,7 @@ The first day (DAY 1) challenges for 30 days of challenges.
 bundle install
 ```
 
-3. Run tests with this command:
+3. cd into `Ruby_solutions` and run tests with this command:
 
 ```sh
 bundle exec rspec
