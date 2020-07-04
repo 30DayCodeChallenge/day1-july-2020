@@ -4,15 +4,19 @@ defmodule Midigo do
   """
 
   @doc """
-  Hello world.
+  Counts duplicate characters within a string
 
-  ## Examples
+  ## Example
 
-      iex> Midigo.hello()
-      :world
+      iex> Midigo.duplicates_count("aabbcde")
+      2
 
   """
-  def hello do
-    :world
+  @spec duplicates_count(String.t()) :: integer()
+  def duplicates_count(word) do
+    word
+    |> String.graphemes()
+    |> Enum.frequencies_by(&String.downcase/1)
+    |> Enum.count(fn {_key, value} -> value > 1 end)
   end
 end

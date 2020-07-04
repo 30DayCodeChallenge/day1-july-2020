@@ -12,3 +12,9 @@ Ensure you're in this directory. Run `mix test` from your
 ### Duplicates function
 Run the following in the current directory
 `mix run -e "Midigo.duplicate_count(?)"` where `?` is the string argument to be counted
+
+### Example
+```
+> mix run -e 'Midigo.duplicate_count("aabbcde")'
+2
+```
