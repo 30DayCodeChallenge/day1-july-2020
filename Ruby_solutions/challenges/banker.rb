@@ -6,5 +6,5 @@ def fortune(f, p, c, n, i)
     amount = ((((p / 100) * amount) + amount) - c1)
     years += 1
   end
-  amount.positive? || amount.zero?
+  amount >= 0
 end
