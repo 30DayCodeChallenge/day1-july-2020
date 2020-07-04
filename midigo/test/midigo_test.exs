@@ -22,4 +22,14 @@ defmodule MidigoTest do
       assert Midigo.duplicates_count("aA11") == 2
     end
   end
+
+  describe "capitalize/2" do
+    test "capitalizes characters at the given indices of the given string" do
+      assert Midigo.capitalize("abcdef", [1, 2, 5]) == "aBCdeF"
+    end
+
+    test "assumes if the index given doesn't exist" do
+      assert Midigo.capitalize("abcdef", [1, 2, 5, 100]) == "aBCdeF"
+    end
+  end
 end
