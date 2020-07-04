@@ -5,7 +5,7 @@ Instructions:
 1. Fork this Challenge and make any pushes to that repository, then create a pull request.
 
 2. Use any language you prefer.
-3. Include a README.md  file to show how to run and compile the code.
+3. Include a README.md file to show how to run and compile the code.
 4. In your own interest comment your code.
 5. In your own interest attach Screenshots for your results.
 6. Comment on another person's work for positive growth
@@ -20,7 +20,7 @@ Write a function that will return the count of **distinct case-insensitive** alp
 
 "abcde" -> 0 `# no characters repeats more than once`
 "aabbcde" -> 2 `# 'a' and 'b'`
-"aabBcde" -> 2 `# 'a' occurs twice and 'b' twice (`b` and `B`)`
+"aabBcde" -> 2 `# 'a' occurs twice and 'b' twice (`b`and`B`)`
 "indivisibility" -> 1 `# 'i' occurs six times`
 "Indivisibilities" -> 2 `# 'i' occurs seven times and 's' occurs twice`
 "aA11" -> 2 `# 'a' and '1'`
@@ -43,9 +43,9 @@ Here is his banker plan:
 ```
 f0 = 100000, p = 1 percent, c0 = 2000, n = 15, i = 1 percent
 beginning of year 2 -> f1 = 100000 + 0.01*100000 - 2000 = 99000;  c1 = c0 + c0*0.01 = 2020 (with inflation of previous year)
-beginning of year 3 -> f2 =  99000 + 0.01*99000 - 2020  = 97970;  c2 = c1 + c1*0.01 = 2040.20 
+beginning of year 3 -> f2 =  99000 + 0.01*99000 - 2020  = 97970;  c2 = c1 + c1*0.01 = 2040.20
 (with inflation of previous year, truncated to 2040)
-beginning of year 4 -> f3 =  97970 + 0.01*97970 - 2040  = 96909.7 (truncated to 96909); 
+beginning of year 4 -> f3 =  97970 + 0.01*97970 - 2040  = 96909.7 (truncated to 96909);
 c3 = c2 + c2*0.01 = 2060.4 (with inflation of previous year, truncated to 2060)
 ```
 
